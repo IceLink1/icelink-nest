@@ -1,9 +1,9 @@
-name: nest-getting-started
-region: us-east-1
-yamlVersion: 2
+name: icelink-nest
 nestjs:
-    path: .
     packageManager: npm
+    path: .
     scripts:
         deploy:
             - npm install
+region: us-east-1
+yamlVersion: 2
